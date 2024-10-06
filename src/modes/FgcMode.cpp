@@ -31,7 +31,7 @@ void FgcMode::UpdateDigitalOutputs(InputState &inputs, OutputState &outputs) {
     outputs.triggerLDigital = inputs.up;
 
     // Extra buttons row
-    outputs.rightStickClick = inputs.a;
+    outputs.rightStickClick = inputs.down;
     outputs.leftStickClick = inputs.l;
 
     // Right hand top row
